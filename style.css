@@ -2,8 +2,7 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500px;
 }
-
-.imgbox img {
+body .imgbox img {
   width: 100%;
 }
 
@@ -21,6 +20,33 @@ body {
 }
 #carefor .imgbox {
   width: 500px;
+}
+@media screen and (max-width: 992px) {
+  #carefor .textbox h1 {
+    font-size: 40px;
+  }
+  #carefor .textbox h4 {
+    font-size: 18px;
+  }
+  #carefor .imgbox {
+    width: 330px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #carefor .textbox {
+    width: 200px;
+  }
+  #carefor .imgbox {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #carefor .textbox h1 {
+    font-size: 20px;
+  }
+  #carefor .textbox h4 {
+    font-size: 14px;
+  }
 }
 
 #welcome {
@@ -57,7 +83,21 @@ body {
   width: 580px;
   padding: 0;
 }
-
+@media screen and (max-width: 992px) {
+  #welcome .textbox {
+    padding: 23px;
+  }
+  #welcome .textbox h2 {
+    font-size: 25px;
+  }
+  #welcome .textbox h6 {
+    font-size: 15px;
+  }
+  #welcome .textbox .btn {
+    font-size: 14px;
+    padding: 7px 20px;
+  }
+}
 #aboutus {
   padding: 40px 0;
 }
