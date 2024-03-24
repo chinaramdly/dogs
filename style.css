@@ -98,6 +98,12 @@ body .imgbox img {
     padding: 7px 20px;
   }
 }
+@media screen and (max-width: 768px) {
+  #welcome .textbox {
+    padding: 5px;
+  }
+}
+
 #aboutus {
   padding: 40px 0;
 }
