@@ -1,7 +1,7 @@
 #welcome
     padding: 40px 0
     .wid
-        width: 580px
+        // width: 580px
         h1
             font-weight: 700
             font-size: 30px
@@ -10,6 +10,7 @@
             margin: 20px 0 40px
             font-size: 20px
     .box
+        padding-bottom: 30px
         .textbox
             padding: 20px 0 20px 50px
             h2,h6
@@ -38,3 +39,25 @@
                 .btn
                     font-size: 14px
                     padding: 7px 20px
+    @media screen and (max-width: 768px)
+        .box
+            .textbox
+                padding: 0 20px
+                h2,h6
+                    margin: 5px 0
+        .right
+            flex-direction: row-reverse
+            .textbox
+                text-align: start
+    @media screen and (max-width: 576px)
+        .wid
+            h1
+                font-size: 20px
+            h3
+                font-size: 15px
+        .box
+            .textbox
+                h2
+                    font-size: 18px
+                h6
+                    font-size: 12px
