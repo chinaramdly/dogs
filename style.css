@@ -52,20 +52,20 @@ body .imgbox img {
 #welcome {
   padding: 40px 0;
 }
-#welcome .wid h1 {
+#welcome h1 {
   font-weight: 700;
   font-size: 30px;
 }
-#welcome .wid h3 {
+#welcome h3 {
   color: #868686;
-  margin: 20px 0 40px;
+  margin: 20px 0 60px;
   font-size: 20px;
 }
 #welcome .box {
-  padding-bottom: 30px;
+  padding: 25px 0;
 }
 #welcome .box .textbox {
-  padding: 20px 0 20px 50px;
+  padding: 20px 50px;
 }
 #welcome .box .textbox h2, #welcome .box .textbox h6 {
   margin: 15px 0;
@@ -83,12 +83,11 @@ body .imgbox img {
   color: white;
 }
 #welcome .right .textbox {
-  padding: 20px 50px 20px 0;
   text-align: end;
 }
 @media screen and (max-width: 992px) {
   #welcome .box .textbox {
-    padding: 15px;
+    padding: 10px 40px;
   }
   #welcome .box .textbox h2 {
     font-size: 25px;
@@ -115,11 +114,11 @@ body .imgbox img {
     text-align: start;
   }
 }
-@media screen and (max-width: 576px) {
-  #welcome .wid h1 {
+@media screen and (max-width: 450px) {
+  #welcome h1 {
     font-size: 20px;
   }
-  #welcome .wid h3 {
+  #welcome h3 {
     font-size: 15px;
   }
   #welcome .box .textbox h2 {
@@ -127,6 +126,10 @@ body .imgbox img {
   }
   #welcome .box .textbox h6 {
     font-size: 12px;
+  }
+  #welcome .box .textbox .btn {
+    padding: 3px 10px;
+    font-size: 10px;
   }
 }
 
@@ -152,21 +155,26 @@ body .imgbox img {
   color: #949494;
   line-height: 1.4;
 }
-#aboutus .textbox li {
+#aboutus .textbox ul li {
   display: flex;
   align-items: center;
   padding: 20px 0 0 0;
 }
-#aboutus .textbox .icon {
+#aboutus .textbox ul li .icon {
   padding: 0 15px 0 0;
   color: #5e5656;
 }
-#aboutus .textbox h4 {
+#aboutus .textbox ul li h4 {
   font-size: 20px;
   color: #949494;
 }
 #aboutus .imgbox {
   width: 450px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 0 5px;
+  }
 }
 
 #trainers {

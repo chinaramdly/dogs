@@ -1,7 +1,6 @@
 #aboutus
     padding: 40px 0
     .textbox
-        // width: 580px
         padding: 0 100px
         h1
             font-weight: 700
@@ -16,15 +15,22 @@
             font-size: 18px
             color: #949494
             line-height: 1.4
-        li
-            display: flex
-            align-items: center
-            padding: 20px 0 0 0
-        .icon
-            padding: 0 15px 0 0
-            color: #5e5656
-        h4
-            font-size: 20px
-            color: #949494
+        ul
+            li
+                display: flex
+                align-items: center
+                padding: 20px 0 0 0
+                .icon
+                    padding: 0 15px 0 0
+                    color: #5e5656
+                h4
+                    font-size: 20px
+                    color: #949494
     .imgbox
         width: 450px
+    @media screen and ( max-width: 992px )
+        .textbox
+            padding: 0 5px
+            // ul
+            //     display: flex
+            //     flex-direction: row

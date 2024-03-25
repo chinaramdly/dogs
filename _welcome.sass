@@ -1,18 +1,16 @@
 #welcome
     padding: 40px 0
-    .wid
-        // width: 580px
-        h1
-            font-weight: 700
-            font-size: 30px
-        h3
-            color: #868686
-            margin: 20px 0 40px
-            font-size: 20px
+    h1
+        font-weight: 700
+        font-size: 30px
+    h3
+        color: #868686
+        margin: 20px 0 60px
+        font-size: 20px
     .box
-        padding-bottom: 30px
+        padding: 25px 0
         .textbox
-            padding: 20px 0 20px 50px
+            padding: 20px 50px
             h2,h6
                 margin: 15px 0
             h2
@@ -26,12 +24,11 @@
                 color: #ffff
     .right
         .textbox
-            padding: 20px 50px 20px 0
             text-align: end
     @media screen and ( max-width: 992px )
         .box
             .textbox
-                padding: 15px
+                padding: 10px 40px
                 h2
                     font-size: 25px
                 h6
@@ -49,15 +46,17 @@
             flex-direction: row-reverse
             .textbox
                 text-align: start
-    @media screen and (max-width: 576px)
-        .wid
-            h1
-                font-size: 20px
-            h3
-                font-size: 15px
+    @media screen and (max-width: 450px)
+        h1
+            font-size: 20px
+        h3
+            font-size: 15px
         .box
             .textbox
                 h2
                     font-size: 18px
                 h6
                     font-size: 12px
+                .btn
+                    padding: 3px 10px
+                    font-size: 10px
