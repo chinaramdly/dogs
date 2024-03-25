@@ -10,7 +10,7 @@
     margin: 20px 0
     line-height: 1.4
   .box
-    margin: 0 5px
+    margin: 10px 0
     .textbox
       padding: 15px
       h2
@@ -29,5 +29,35 @@
           height: 10px
           .icon
             margin: -7px
-  .wid
-    // width: 580px
+  @media screen and ( max-width: 768px )
+    h1
+      font-size: 30px
+    .box
+      display: flex
+      .textbox
+        h2
+          padding: 0
+  @media screen and ( max-width: 576px )
+    h1
+      font-size: 25px
+    .box
+      .textbox
+        padding: 5px 20px
+        h2
+          font-size: 22px
+        h4
+          font-size: 18px
+          margin: 8px 0
+        ul
+          li
+            padding: 15px
+            .icon
+              font-size: 15px
+  @media screen and ( max-width: 450px )
+    .box
+      .textbox
+        padding: 0 5px
+        h2
+          font-size: 18px
+        h4
+          font-size: 15px
