@@ -65,7 +65,7 @@ body .imgbox img {
   padding: 25px 0;
 }
 #welcome .box .textbox {
-  padding: 20px 50px;
+  padding: 20px 80px;
 }
 #welcome .box .textbox h2, #welcome .box .textbox h6 {
   margin: 15px 0;
@@ -105,7 +105,7 @@ body .imgbox img {
     padding: 0 20px;
   }
   #welcome .box .textbox h2, #welcome .box .textbox h6 {
-    margin: 5px 0;
+    margin: 8px 0;
   }
   #welcome .right {
     flex-direction: row-reverse;
@@ -191,7 +191,7 @@ body .imgbox img {
   line-height: 1.4;
 }
 #trainers .box {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 #trainers .box .textbox {
   padding: 15px;
@@ -206,15 +206,15 @@ body .imgbox img {
   flex-direction: row;
 }
 #trainers .box .textbox ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 10px;
   background-color: #d4cece;
   border-radius: 50%;
   padding: 20px;
   width: 10px;
   height: 10px;
-}
-#trainers .box .textbox ul li .icon {
-  margin: -7px;
 }
 @media screen and (max-width: 768px) {
   #trainers h1 {
@@ -231,32 +231,38 @@ body .imgbox img {
   #trainers h1 {
     font-size: 25px;
   }
-  #trainers .box .textbox {
-    padding: 5px 20px;
+  #trainers h3, #trainers h4 {
+    margin: 8px 0;
+    font-size: 18px;
   }
-  #trainers .box .textbox h2 {
+  #trainers .box .textbox {
+    padding: 5px 10px;
+  }
+  #trainers .box h2 {
     font-size: 22px;
   }
-  #trainers .box .textbox h4 {
-    font-size: 18px;
-    margin: 8px 0;
-  }
-  #trainers .box .textbox ul li {
+  #trainers .box ul li {
     padding: 15px;
   }
-  #trainers .box .textbox ul li .icon {
+  #trainers .box ul li .icon {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 300px) {
+  #trainers h3, #trainers h4 {
+    font-size: 13px;
+  }
   #trainers .box .textbox {
-    padding: 0 5px;
+    padding: 0px 5px;
   }
   #trainers .box .textbox h2 {
-    font-size: 18px;
-  }
-  #trainers .box .textbox h4 {
     font-size: 15px;
+  }
+  #trainers .box .textbox ul li {
+    padding: 10px;
+  }
+  #trainers .box .textbox ul li .icon {
+    font-size: 10px;
   }
 }
 
@@ -310,6 +316,21 @@ body .imgbox img {
 }
 #pricing .PREMIUM-color .btn {
   background-color: #708f97;
+}
+@media screen and (max-width: 576px) {
+  #pricing .box {
+    padding: 20px 10px;
+  }
+  #pricing .box h2 {
+    font-size: 18px;
+  }
+  #pricing .box h3 {
+    font-size: 22px;
+    margin: 10px 0 0;
+  }
+  #pricing .box li {
+    margin: 20px 0 0;
+  }
 }
 
 #questions {
