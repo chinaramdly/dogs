@@ -1,7 +1,5 @@
 #questions
     padding: 40px 0
-    .wid
-        // width: 580px
     h1
         font-size: 36px
         font-weight: 700
@@ -12,20 +10,18 @@
         margin: 0 0 40px
         color: #717171
     .textbox
-        padding: 0 70px
-        .minibox
-            margin: 20px 0 0
+        padding: 20px 70px
         h2,h4
             font-size: 22px
             color: #717171
-            margin: 0 0 0 10px
+            margin-left: 10px
         p
             color: #949494
             margin: 30px 0 0 32px
         li
             display: flex
             align-items: center
-            margin: 30px 0 0
+            margin-top: 30px
     .icon
         color: #d4cece
         i
@@ -33,3 +29,15 @@
     .bigicon
         i
             font-size: 30px
+    @media screen and ( max-width: 992px )
+        .textbox
+            padding: 30px 10px
+            h2,h4
+                font-size: 18px
+            p
+                margin: 20px 0 0 30px
+            .icon
+                i
+                    font-size: 20px
+            li
+                margin-top: 15px
