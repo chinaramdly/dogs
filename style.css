@@ -223,52 +223,15 @@ body .imgbox img {
   height: 10px;
 }
 @media screen and (max-width: 768px) {
-  #trainers h1 {
-    font-size: 30px;
-  }
   #trainers .box {
+    padding: 30px 0;
+  }
+  #trainers .box .textbox {
+    text-align: center;
+  }
+  #trainers .box .minibox {
     display: flex;
-  }
-  #trainers .box .textbox h2 {
-    padding: 0;
-  }
-}
-@media screen and (max-width: 576px) {
-  #trainers h1 {
-    font-size: 25px;
-  }
-  #trainers h3, #trainers h4 {
-    margin: 8px 0;
-    font-size: 18px;
-  }
-  #trainers .box .textbox {
-    padding: 5px 10px;
-  }
-  #trainers .box h2 {
-    font-size: 22px;
-  }
-  #trainers .box ul li {
-    padding: 15px;
-  }
-  #trainers .box ul li .icon {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 300px) {
-  #trainers h3, #trainers h4 {
-    font-size: 13px;
-  }
-  #trainers .box .textbox {
-    padding: 0px 5px;
-  }
-  #trainers .box .textbox h2 {
-    font-size: 15px;
-  }
-  #trainers .box .textbox ul li {
-    padding: 10px;
-  }
-  #trainers .box .textbox ul li .icon {
-    font-size: 10px;
+    justify-content: center;
   }
 }
 
@@ -324,14 +287,14 @@ body .imgbox img {
 }
 @media screen and (max-width: 992px) {
   #pricing .box {
-    margin: 15px 0;
+    margin: 30px 0;
     padding: 20px 10px;
   }
   #pricing .box h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   #pricing .box h3 {
-    font-size: 22px;
+    font-size: 25px;
     margin: 10px 0 0;
   }
   #pricing .box li {
@@ -343,15 +306,6 @@ body .imgbox img {
   #pricing .box .btn {
     padding: 7px 20px;
     margin: 30px 0 0;
-  }
-}
-@media screen and (max-width: 576px) {
-  #pricing .textbox h1 {
-    font-size: 25px;
-  }
-  #pricing .textbox h5 {
-    font-size: 16px;
-    margin: 20px;
   }
 }
 
