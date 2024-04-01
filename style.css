@@ -19,7 +19,9 @@ body .imgbox img {
   font-size: 24px;
 }
 #carefor .imgbox {
-  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
 }
 @media screen and (max-width: 992px) {
   #carefor .textbox {
@@ -37,14 +39,17 @@ body .imgbox img {
 #welcome {
   padding: 40px 0;
 }
-#welcome h1 {
+#welcome .textbox h1 {
   font-weight: 700;
   font-size: 30px;
 }
-#welcome h3 {
+#welcome .textbox h3 {
   color: #868686;
   margin: 20px 0 60px;
   font-size: 20px;
+}
+#welcome .wid {
+  width: 580px;
 }
 #welcome .box {
   padding: 25px 0;
@@ -66,6 +71,10 @@ body .imgbox img {
   border-radius: 20px;
   background-color: #a7b59f;
   color: white;
+}
+#welcome .box .imgbox {
+  border-radius: 10px;
+  overflow: hidden;
 }
 #welcome .right .textbox {
   text-align: end;
@@ -154,10 +163,16 @@ body .imgbox img {
   font-size: 20px;
   color: #949494;
 }
+#aboutus .imgbox {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 400px;
+}
 @media screen and (max-width: 992px) {
   #aboutus .textbox {
     padding: 30px 0;
     text-align: center;
+    width: 450px;
   }
   #aboutus .textbox .minibox {
     display: flex;
@@ -185,7 +200,7 @@ body .imgbox img {
 #trainers {
   padding: 40px 0;
 }
-#trainers h1 {
+#trainers .textbox h1 {
   font-weight: 700;
   font-size: 38px;
 }
@@ -196,8 +211,15 @@ body .imgbox img {
   margin: 20px 0;
   line-height: 1.4;
 }
+#trainers .wid {
+  width: 580px;
+}
 #trainers .box {
   margin: 20px 0;
+}
+#trainers .box .imgbox {
+  border-radius: 10px;
+  overflow: hidden;
 }
 #trainers .box .textbox {
   padding: 15px;
@@ -250,7 +272,12 @@ body .imgbox img {
   color: #000000;
   margin: 20px 0 40px;
 }
+#pricing .wid {
+  width: 580px;
+}
 #pricing .box {
+  border-radius: 10px;
+  overflow: hidden;
   color: white;
   background-color: #708f97;
   padding: 50px 30px;
@@ -312,33 +339,40 @@ body .imgbox img {
 #questions {
   padding: 40px 0;
 }
-#questions h1 {
+#questions .textbox h1 {
   font-size: 36px;
   font-weight: 700;
   margin: 15px 0;
 }
-#questions h3 {
+#questions .textbox h3 {
   font-size: 18px;
   font-weight: 500;
   margin: 0 0 40px;
   color: #717171;
 }
-#questions .textbox {
+#questions .wid {
+  width: 580px;
+}
+#questions .box {
   padding: 20px 70px;
 }
-#questions .textbox h2, #questions .textbox h4 {
+#questions .box h2, #questions .box h4 {
   font-size: 22px;
   color: #717171;
   margin-left: 10px;
 }
-#questions .textbox p {
+#questions .box p {
   color: #949494;
   margin: 30px 0 0 32px;
 }
-#questions .textbox li {
+#questions .box li {
   display: flex;
   align-items: center;
   margin-top: 30px;
+}
+#questions .imgbox {
+  border-radius: 10px;
+  overflow: hidden;
 }
 #questions .icon {
   color: #d4cece;
@@ -350,19 +384,19 @@ body .imgbox img {
   font-size: 30px;
 }
 @media screen and (max-width: 992px) {
-  #questions .textbox {
+  #questions .box {
     padding: 30px 10px;
   }
-  #questions .textbox h2, #questions .textbox h4 {
+  #questions .box h2, #questions .box h4 {
     font-size: 18px;
   }
-  #questions .textbox p {
+  #questions .box p {
     margin: 20px 0 0 30px;
   }
-  #questions .textbox .icon i {
+  #questions .box .icon i {
     font-size: 20px;
   }
-  #questions .textbox li {
+  #questions .box li {
     margin-top: 15px;
   }
 }
@@ -370,16 +404,23 @@ body .imgbox img {
 #blog {
   padding: 40px 0;
 }
-#blog h1 {
+#blog .textbox h1 {
   font-weight: 700;
   font-size: 35px;
 }
-#blog h3 {
+#blog .textbox h3 {
   font-size: 20px;
   margin: 30px 0 60px;
 }
+#blog .wid {
+  width: 580px;
+}
 #blog .box {
   display: flex;
+}
+#blog .box .imgbox {
+  border-radius: 10px;
+  overflow: hidden;
 }
 #blog .box .textbox {
   padding: 10px 15px;
@@ -420,56 +461,59 @@ body .imgbox img {
 #services {
   padding: 40px 0;
 }
-#services h1 {
+#services .textbox h1 {
   font-weight: 700;
   font-size: 35px;
 }
-#services h3 {
+#services .textbox h3 {
   font-size: 20px;
   color: #c6c6c6;
   margin: 30px 0;
 }
-#services .textbox {
+#services .wid {
+  width: 580px;
+}
+#services .box {
   padding: 30px 40px;
 }
-#services .textbox .icon {
+#services .box .icon {
   font-size: 60px;
 }
-#services .textbox h2 {
+#services .box h2 {
   font-size: 25px;
   color: #757575;
   margin-top: 20px;
 }
-#services .textbox h3 {
+#services .box h3 {
   margin-top: 30px;
 }
 @media screen and (max-width: 992px) {
-  #services .textbox {
+  #services .box {
     padding: 30px 20px;
   }
-  #services .textbox h2 {
+  #services .box h2 {
     margin-top: 15px;
   }
-  #services .textbox h3 {
+  #services .box h3 {
     margin-top: 15px;
   }
 }
 @media screen and (max-width: 768px) {
-  #services .textbox {
+  #services .box {
     text-align: center;
   }
-  #services .textbox .icon {
+  #services .box .icon {
     font-size: 50px;
   }
-  #services .textbox h2 {
+  #services .box h2 {
     font-size: 20px;
   }
-  #services .textbox h3 {
+  #services .box h3 {
     font-size: 18px;
   }
 }
 @media screen and (max-width: 576px) {
-  #services .textbox {
+  #services .box {
     padding: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
