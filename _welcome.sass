@@ -31,8 +31,16 @@
     .right
         .textbox
             text-align: end
+    @media screen and ( min-width: 768px )
+        
+    @media screen and ( min-width: 768px )
+        .box
+            flex-direction: row-reverse
+        .right
+            flex-direction: row
     @media screen and ( max-width: 992px )
         .box
+            display: flex
             .textbox
                 padding: 10px 40px
                 h2
@@ -62,7 +70,7 @@
                 h2
                     font-size: 18px
                 h6
-                    font-size: 12px
+                 font-size: 12px
                 .btn
                     padding: 3px 10px
                     font-size: 10px

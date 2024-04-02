@@ -133,6 +133,13 @@ body .imgbox img {
   #welcome .box .textbox h2 {
     font-size: 18px;
   }
+  #welcome .box .textbox h6 {
+    font-size: 12px;
+  }
+  #welcome .box .textbox .btn {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
 }
 
 #aboutus {
