@@ -34,6 +34,10 @@ body .imgbox img {
   #carefor .textbox h4 {
     font-size: 20px;
   }
+  #carefor .image {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 #welcome {
@@ -79,7 +83,18 @@ body .imgbox img {
 #welcome .right .textbox {
   text-align: end;
 }
+@media screen and (min-width: 768px) {
+  #welcome .box {
+    flex-direction: row-reverse;
+  }
+  #welcome .right {
+    flex-direction: row;
+  }
+}
 @media screen and (max-width: 992px) {
+  #welcome .box {
+    display: flex;
+  }
   #welcome .box .textbox {
     padding: 10px 40px;
   }
@@ -117,13 +132,6 @@ body .imgbox img {
   }
   #welcome .box .textbox h2 {
     font-size: 18px;
-  }
-  #welcome .box .textbox h6 {
-    font-size: 12px;
-  }
-  #welcome .box .textbox .btn {
-    padding: 3px 10px;
-    font-size: 10px;
   }
 }
 
@@ -175,6 +183,10 @@ body .imgbox img {
     width: 450px;
   }
   #aboutus .textbox .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #aboutus .image {
     display: flex;
     justify-content: center;
   }
