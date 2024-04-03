@@ -83,14 +83,6 @@ body .imgbox img {
 #welcome .right .textbox {
   text-align: end;
 }
-@media screen and (min-width: 768px) {
-  #welcome .box {
-    flex-direction: row-reverse;
-  }
-  #welcome .right {
-    flex-direction: row;
-  }
-}
 @media screen and (max-width: 992px) {
   #welcome .box {
     display: flex;
